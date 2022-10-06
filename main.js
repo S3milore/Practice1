@@ -68,6 +68,6 @@ let input=val;
 let total=0;
 for(let j=0; j<arr2.length; j++){
   total+=(arr2[j])}
-console.log(total)
+return total;
 }
 console.log(nameFunc("paul"));
