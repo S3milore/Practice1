@@ -9,95 +9,65 @@ let input=val;
   let input2 = arr1;
   let arr2=[];
   //basic code for each character
-  let j=0;
-    do {
-   arr2.push(1);
-    j++;
-} while (input2[j]==="a");
-do {
+  for (let j=0; j<input2.length; j++){
+  if(input2[j]=="a"){
+   arr2.push(1);}
+   else if (input2[j]=="b"){
    arr2.push(2);
-    j++;
-} while (input2[j]==="b");
-do {
+   }else if (input2[j]=="c"){
    arr2.push(3);
-    j++;
-} while (input2[j]==="c");
-do {
-  arr2.push(4);
-   j++;
-} while (input2[j]==="d");do {
-  arr2.push(5);
-   j++;
-} while (input2[j]==="e");do {
-  arr2.push(6);
-   j++;
-} while (input2[j]==="f");do {
-  arr2.push(7);
-   j++;
-} while (input2[j]==="g");do {
-  arr2.push(8);
-   j++;
-} while (input2[j]==="h");do {
-  arr2.push(9);
-   j++;
-} while (input2[j]==="i");do {
-  arr2.push(10);
-   j++;
-} while (input2[j]==="j");do {
-  arr2.push(11);
-   j++;
-} while (input2[j]==="k");do {
-  arr2.push(12);
-   j++;
-} while (input2[j]==="l");do {
-  arr2.push(13);
-   j++;
-} while (input2[j]==="m");do {
-  arr2.push(14);
-   j++;
-} while (input2[j]==="n");do {
-  arr2.push(15);
-   j++;
-} while (input2[j]==="o");do {
-  arr2.push(16);
-   j++;
-} while (input2[j]==="p");do {
-  arr2.push(17);
-   j++;
-} while (input2[j]==="q");do {
-  arr2.push(18);
-   j++;
-} while (input2[j]==="r");do {
-  arr2.push(19);
-   j++;
-} while (input2[j]==="s");do {
-  arr2.push(20);
-   j++;
-} while (input2[j]==="t");do {
-  arr2.push(21);
-   j++;
-} while (input2[j]==="u");do {
-  arr2.push(22);
-   j++;
-} while (input2[j]==="v");do {
-  arr2.push(23);
-   j++;
-} while (input2[j]==="w");do {
-  arr2.push(24);
-   j++;
-} while (input2[j]==="x");do {
-  arr2.push(25);
-   j++;
-} while (input2[j]==="y");do {
-  arr2.push(26);
-   j++;
-} while (input2[j]==="z");
+   }else if (input2[j]=="d"){
+   arr2.push(4);
+   }else if (input2[j]=="e"){
+   arr2.push(5);
+   }else if (input2[j]=="f"){
+   arr2.push(6);
+   }else if (input2[j]=="g"){
+   arr2.push(7);
+   }else if (input2[j]=="h"){
+   arr2.push(8);
+   }else if (input2[j]=="i"){
+   arr2.push(9);
+   }else if (input2[j]=="j"){
+   arr2.push(10);
+   }else if (input2[j]=="k"){
+   arr2.push(11);
+   }else if (input2[j]=="l"){
+   arr2.push(12);
+   }else if (input2[j]=="m"){
+   arr2.push(13);
+   }else if (input2[j]=="n"){
+   arr2.push(14);
+   }else if (input2[j]=="o"){
+   arr2.push(15);
+   }else if (input2[j]=="p"){
+   arr2.push(16);
+   }else if (input2[j]=="q"){
+   arr2.push(17);
+   }else if (input2[j]=="r"){
+   arr2.push(18);
+   }else if (input2[j]=="s"){
+   arr2.push(19);
+   }else if (input2[j]=="t"){
+   arr2.push(20);
+   }else if (input2[j]=="u"){
+   arr2.push(21);
+   }else if (input2[j]=="v"){
+   arr2.push(22);
+   }else if (input2[j]=="w"){
+   arr2.push(23);
+   }else if (input2[j]=="x"){
+   arr2.push(24);
+   }else if (input2[j]=="y"){
+   arr2.push(25);
+   }else if (input2[j]=="z"){
+   arr2.push(26);}
+  }
 //this part adds up the numbers in the arr2 and results the answer in total.
 //totalling
 let total=0;
 for(let j=0; j<arr2.length; j++){
-  total+=(arr2[j])
-}
+  total+=(arr2[j])}
 console.log(total)
 }
-console.log(nameFunc("abc"));
+console.log(nameFunc("paul"));
