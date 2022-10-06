@@ -8,10 +8,11 @@ let input=val;
 //their equivalent values into an arr2
   let input2 = arr1;
   let arr2=[];
-  //basic code for each character
+  //basic code for each character begins
   for (let j=0; j<input2.length; j++){
   if(input2[j]=="a"){
    arr2.push(1);}
+   //ends basic code for each character
    else if (input2[j]=="b"){
    arr2.push(2);
    }else if (input2[j]=="c"){
